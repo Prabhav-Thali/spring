@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="TicketBooking">
+<aspect-definition advice-class-name="com.psl.Tc" advice-method-name="Activity" advice-type="AROUND" aspect-end-line-number="18" aspect-name="tc" aspect-start-line-number="18" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/TicketBooking/src/beans.xml" pointcut-expression="execution(*     com.psl.Train.runontime(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:TicketBooking|3:src/beans.xml|7:beans:5|8:train:9" bean-file="/TicketBooking/src/beans.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/TicketBooking/src/beans.xml" source="=TicketBooking/src&lt;com.psl{Tc.java[Tc~Activity~QProceedingJoinPoint;" source-start-line="25" target="=TicketBooking/src&lt;com.psl{Train.java[Train~runontime" target-start-line="5"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="Bank"/>
+<aop-project name="Employee"/>
+<aop-project name="TrainTicket"/>
+<aop-project name="course-api"/>
+<aop-project name="SpringMVC"/>
+<aop-project name="SpringTransactions"/>
+<aop-project name="Spring1"/>
+<aop-project name="SpringAop"/>
+<aop-project name="HomeDecor">
+<aspect-definition advice-class-name="com.psl.ShopActivity" advice-method-name="procedure(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="8" aspect-name="act" aspect-start-line-number="8" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/HomeDecor/src/beans.xml" pointcut-expression="pc()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:HomeDecor|3:src/beans.xml|7:beans:6|8:shop:7" bean-file="/HomeDecor/src/beans.xml" bean-start-line="7" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/HomeDecor/src/beans.xml" source="=HomeDecor/src&lt;com.psl{ShopActivity.java[ShopActivity~procedure~QProceedingJoinPoint;" source-start-line="43" target="=HomeDecor/src&lt;com.psl{Shopping.java[Shopping~shop" target-start-line="5"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringMvcUser"/>
+</aop-reference-model>

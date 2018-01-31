@@ -1,0 +1,19 @@
+package com.psl;
+
+public class ShopActivity {
+
+	public void suggestions() {
+
+	}
+
+	public void addtocart() {
+
+	}
+
+	public void addvouchers() {
+
+	}
+public void suggestions(){
+		
+	}
+}

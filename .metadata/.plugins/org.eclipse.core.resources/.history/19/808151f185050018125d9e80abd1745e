@@ -1,0 +1,13 @@
+package io.springbootstarter.topic;
+
+import java.util.Arrays;
+
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class TopicService {
+
+	Arrays.asList(new Topic("Java"),new Topic("C++"));
+	
+}

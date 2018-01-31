@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+<context:component-scan base-package="com.psl"></context:component-scan>
+
+	<bean class="com.psl.Booking" id="Book"  autowire="byType" scope="prototype" >
+		<property name="id" value="1" />
+		<property name="name" value="Nishit" />
+	<!-- 	<constructor-arg name="tname" ref="t2" /> -->
+	</bean>
+
+	<!-- <bean class="com.psl.Train" id="t" >
+		<constructor-arg name="trname" value="Mumbai Express" />
+		<constructor-arg name="tnum" value="12134" />
+	</bean> -->
+	
+	<bean class="com.psl.Train2" id="t2">
+		<property name="seats" value="120" />
+	</bean>
+</beans>

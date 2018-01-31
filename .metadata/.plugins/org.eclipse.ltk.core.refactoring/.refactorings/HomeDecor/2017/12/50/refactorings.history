@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.psl.ShopAtivity&apos; to &apos;ShopActivity&apos;&#x0D;&#x0A;- Original project: &apos;HomeDecor&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.ShopAtivity&apos;&#x0D;&#x0A;- Renamed element: &apos;com.psl.ShopActivity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ShopAtivity&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.psl{ShopAtivity.java[ShopAtivity" matchStrategy="1" name="ShopActivity" qualified="false" references="true" similarDeclarations="false" stamp="1513243316564" textual="false" version="1.0"/>
+</session>

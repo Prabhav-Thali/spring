@@ -1,0 +1,14 @@
+127.0.0.1 - - [15/Jan/2018:14:37:16 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:37:19 +0530] "GET /SpringMvcUser/ HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:37:19 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:37:25 +0530] "GET /SpringMvcUser/login HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:37:30 +0530] "GET /SpringMvcUser/register HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:45:19 +0530] "GET /SpringMvcUser/ HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:45:23 +0530] "GET /SpringMvcUser/login HTTP/1.1" 200 1000
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:46:32 +0530] "GET /SpringMvcUser/home.jsp HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:46:34 +0530] "GET /SpringMvcUser/register HTTP/1.1" 200 1567
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:48:08 +0530] "POST /SpringMvcUser/registerProcess HTTP/1.1" 400 968
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:48:15 +0530] "POST /SpringMvcUser/registerProcess HTTP/1.1" 400 968
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:49:54 +0530] "GET /SpringMvcUser/register HTTP/1.1" 200 1567
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:49:57 +0530] "GET /SpringMvcUser/ HTTP/1.1" 200 375
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:14:49:59 +0530] "GET /SpringMvcUser/ HTTP/1.1" 200 375

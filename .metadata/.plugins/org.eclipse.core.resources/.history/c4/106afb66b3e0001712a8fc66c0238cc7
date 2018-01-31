@@ -1,0 +1,32 @@
+package com.psl;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class ShopActivity {
+
+	public void suggestions() {
+		System.out.println("suggestions are:");
+	}
+
+	public void addtocart() {
+		System.out.println("Added to cart");
+	}
+
+	public void addvouchers() {
+		System.out.println("Vouchers Added.");
+	}
+
+	public void procedure(ProceedingJoinPoint jp) {
+		
+		
+		// before
+		suggestions();
+		// during
+
+		// after
+
+	}
+
+}

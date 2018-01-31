@@ -1,0 +1,12 @@
+package io.springbootstarter.topic;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TopicController {
+
+	
+	public String getAllTopics(){
+		
+	}
+}

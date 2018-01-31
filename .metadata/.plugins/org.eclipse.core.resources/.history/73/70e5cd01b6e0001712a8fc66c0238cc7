@@ -1,0 +1,9 @@
+package com.psl;
+
+public class Shopping {
+
+	public void shop() {
+		// TODO Auto-generated method stub
+		System.out.println("Shopping is DONE!!!!!");
+	}
+}

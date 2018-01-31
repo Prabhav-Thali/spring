@@ -1,0 +1,8 @@
+package io.springbootstarter.topic;
+
+
+@Service
+public class TopicService {
+
+	
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<!-- <context:annotation-config/> -->
+	<context:component-scan base-package="com.psl"></context:component-scan>
+	<!-- <bean class="com.psl.Employee" id="emp" lazy-init="true" > property/setter 
+		DI <property name="id" value="1" /> <property name="name" value="Prabhav" 
+		/> <property name="addr" ref="addr" /> </bean> -->
+
+	<!-- <bean class="com.psl.Address" id="addr" init-method="a" destroy-method="d" 
+		primary="false"> <property name="city" value="Mapusa" /> <property name="street" 
+		value="Abc" /> <property name="zip" value="403507" /> </bean> -->
+
+	<bean class="com.psl.Address" id="addr3" autowire-candidate="true"
+		primary="true" >
+		<property name="city" value="Panjim" />
+		<property name="street" value="xyz" />
+		<property name="zip" value="403507" />
+	</bean>
+
+	<!-- <bean class="com.psl.Address2" id="addr2"> <property name="landmark" 
+		value="ACBC"></property> </bean> -->
+
+	<bean class="com.psl.MyProcessor"></bean>
+</beans>
